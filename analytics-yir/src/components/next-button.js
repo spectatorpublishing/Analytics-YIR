@@ -17,8 +17,8 @@ const TextWrapper = styled.div`
     font-weight: 650;
     color: white;
     text-align: right;
-    line-height: 20px;
-    padding: 2.0rem;
+    line-height: 0;
+    padding-right: 2.0rem;
     justify-content: right;
 `;
 
