@@ -2,10 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import { device } from '../device';
-
 const Example = () => (
-    pass
+    <>
+    <h1>Example</h1>
+    </>
 );
 
 export default Example;

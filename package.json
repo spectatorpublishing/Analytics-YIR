@@ -1,0 +1,19 @@
+{
+  "name": "analytics-yir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "device.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spectatorpublishing/Analytics-YIR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spectatorpublishing/Analytics-YIR/issues"
+  },
+  "homepage": "https://github.com/spectatorpublishing/Analytics-YIR#readme"
+}
