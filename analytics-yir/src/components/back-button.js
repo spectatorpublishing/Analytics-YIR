@@ -9,9 +9,6 @@ const Button = styled.button`
     height: 59px;
     cursor: pointer;
     border-radius: 100px;
-
-    margin: 1rem;
-
     `;
 
 const TextWrapper = styled.div`

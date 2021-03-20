@@ -36,14 +36,14 @@ const RightSideNext = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-
+    margin: 1rem;
 `;
 
 const LeftSideBack = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
+    margin: 1rem;
 `;
 
 //const tileWidth = ${device.size.mobile};
@@ -60,7 +60,7 @@ const JournalismNav = () => (
         </LeftSideBack>
         <TileWrap>
             {journalism_nav_tiles.map(tile => (
-                <NavTile section = {tile.section} link = {tile.link} img = {opinionImg} width = "400px" height = "250px"></NavTile>
+                <NavTile section = {tile.section} link = {tile.link} img = {'../../public/images' + tile.img} width = "400px" height = "250px"></NavTile>
             ))}
         </TileWrap>
         <RightSideNext>
