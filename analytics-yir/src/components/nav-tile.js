@@ -8,11 +8,14 @@ const NavTitleWrapper = styled.div`
     background-repeat: no-repeat;
     height: ${props => props.height};
     width: ${props => props.width};
-    background-size: contain;
+    background-size: cover;
     position: relative;
     text-decoration: none;
     color: black;
     border-radius: 3.125rem;
+    
+    margin: 1rem;
+    
 `;
 const PillShape = styled.div`
     background-color: white;
