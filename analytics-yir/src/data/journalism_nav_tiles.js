@@ -2,32 +2,32 @@ export const journalism_nav_tiles = [
     {
         section: "opinion",
         link: "https://www.google.com/",
-        img: "opinion.png"
+        img: 'opinion.png'
     },
     {
         section: "a&e",
         link: "https://www.google.com/",
-        img: "aANDe.png"
+        img: 'aANDe.png'
     },
     {
         section: "sports",
         link: "https://www.google.com/",
-        img: "sports.png"
+        img: 'sports.png'
     },
     {
         section: "spectrum",
         link: "https://www.google.com/",
-        img: "spectrumJ.png"
+        img: 'spectrumJ.png'
     },
     {
         section: "the eye",
         link: "https://www.google.com/",
-        img: "theEye.png"
+        img: 'theEye.png'
     },
     {
         section: "news",
         link: "https://www.google.com/",
-        img: "news.png"
+        img: 'news.png'
     } 
 ];
 

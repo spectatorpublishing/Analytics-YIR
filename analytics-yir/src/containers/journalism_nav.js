@@ -8,7 +8,7 @@ import NavTile from '../components/nav-tile';
 import NextButton from '../components/next-button';
 import BackButton from '../components/back-button';
 
-import opinionImg from '../images/opinion.png';
+import opinionImg from '../opinion.png';
 
 import { journalism_nav_tiles } from '../data/journalism_nav_tiles'
 //import NavTile from '../components/nav-tile';
@@ -32,20 +32,40 @@ const TileWrap = styled.div`
     justify-content: space-evenly;
 `;
 
+const RightSideNext = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+`;
+
+const LeftSideBack = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+`;
+
 //const tileWidth = ${device.size.mobile};
 //NavTile = ( {section, link, img, width, height} )
 //img = {require('../images' + tile.img)}
+//img = {require(`../../public/images/${tile.img}`)} 
+//img = {require('../../public/images' + tile.img)}
 
 const JournalismNav = () => (
     <>
     <Wrapper1>
-        <BackButton link = 'example-base-page.js'> </BackButton>
+        <LeftSideBack>
+            <BackButton link = 'example-base-page.js'> </BackButton>
+        </LeftSideBack>
         <TileWrap>
             {journalism_nav_tiles.map(tile => (
-                <NavTile section = {tile.section} link = {tile.link} img = {require(`../images/${tile.img}`)} width = "400px" height = "250px"></NavTile>
+                <NavTile section = {tile.section} link = {tile.link} img = {opinionImg} width = "400px" height = "250px"></NavTile>
             ))}
         </TileWrap>
-        <NextButton link = 'example-base-page.js'> </NextButton>
+        <RightSideNext>
+            <NextButton link = 'example-base-page.js' > </NextButton>
+        </RightSideNext>
     </Wrapper1>
     </>
 );
