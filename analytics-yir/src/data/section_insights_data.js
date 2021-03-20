@@ -8,7 +8,7 @@
 
 export const data = 
     {
-        title: "introduction.",
+        title: "section insights.",
         subtitle: "Subtitle",
         paragraphs: [
             "This is the introduction paragraph", 
@@ -21,7 +21,7 @@ export const data =
             "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6VOZQKM3DZEIXHAHG673EEUWXE.jpeg",
             "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6VOZQKM3DZEIXHAHG673EEUWXE.jpeg",
         ],
-        next_link: '/Audience',
-        back_link: '/',
+        next_link: '/FinalRemarks',
+        back_link: '/SocialMedia',
 
     }
