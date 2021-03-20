@@ -9,6 +9,8 @@ function App() {
     <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path='/' component={BAndINav} />
+          <Route exact path='/bAndINav' component={BAndINav} />
+          <Route exact path='/journalismNav' component={JournalismNav} />
         </Switch>
       </Router>
   );

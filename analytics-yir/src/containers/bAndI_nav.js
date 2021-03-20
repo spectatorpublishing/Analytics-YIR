@@ -8,8 +8,6 @@ import NavTile from '../components/nav-tile';
 import NextButton from '../components/next-button';
 import BackButton from '../components/back-button';
 
-import opinionImg from '../opinion.png';
-
 import { bAndI_nav_tiles } from '../data/bAndI_nav_tiles'
 
 const Wrapper1 = styled.div`
@@ -45,11 +43,6 @@ const LeftSideBack = styled.div`
     margin: 1rem;
 `;
 
-//const tileWidth = ${device.size.mobile};
-//NavTile = ( {section, link, img, width, height} )
-//img = {require('../images' + tile.img)}
-//img = {require(`../../public/images/${tile.img}`)} 
-//img = {require('../../public/images' + tile.img)}
 
 const BAndINav = () => (
     <>
@@ -59,7 +52,7 @@ const BAndINav = () => (
         </LeftSideBack>
         <TileWrap>
             {bAndI_nav_tiles.map(tile => (
-                <NavTile section = {tile.section} link = {tile.link} img = {'../../public/images' + tile.img} width = "400px" height = "250px"></NavTile>
+                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "375px" height = "250px"></NavTile>
             ))}
         </TileWrap>
         <RightSideNext>

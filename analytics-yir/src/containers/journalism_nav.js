@@ -11,7 +11,6 @@ import BackButton from '../components/back-button';
 import opinionImg from '../opinion.png';
 
 import { journalism_nav_tiles } from '../data/journalism_nav_tiles'
-//import NavTile from '../components/nav-tile';
 
 const Wrapper1 = styled.div`
     background: white;
@@ -46,11 +45,6 @@ const LeftSideBack = styled.div`
     margin: 1rem;
 `;
 
-//const tileWidth = ${device.size.mobile};
-//NavTile = ( {section, link, img, width, height} )
-//img = {require('../images' + tile.img)}
-//img = {require(`../../public/images/${tile.img}`)} 
-//img = {require('../../public/images' + tile.img)}
 
 const JournalismNav = () => (
     <>
@@ -60,7 +54,7 @@ const JournalismNav = () => (
         </LeftSideBack>
         <TileWrap>
             {journalism_nav_tiles.map(tile => (
-                <NavTile section = {tile.section} link = {tile.link} img = {'../../public/images' + tile.img} width = "400px" height = "250px"></NavTile>
+                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "375px" height = "250px"></NavTile>
             ))}
         </TileWrap>
         <RightSideNext>

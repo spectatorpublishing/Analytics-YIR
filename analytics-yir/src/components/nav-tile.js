@@ -15,6 +15,7 @@ const NavTitleWrapper = styled.div`
     border-radius: 3.125rem;
     
     margin: 1rem;
+    
 `;
 const PillShape = styled.div`
     background-color: white;
