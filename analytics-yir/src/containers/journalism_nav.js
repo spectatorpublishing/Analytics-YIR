@@ -39,7 +39,12 @@ const JournalismNav = () => (
     <Wrapper1>
         <BackButton link = 'example-base-page.js'> </BackButton>
         <TileWrap>
-            <NavTile section = "opinion" link = "google.com" img = {opinionImg} width = "1000px" height = "1000px"></NavTile>
+            <NavTile section = "opinion" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
+            <NavTile section = "a&e" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
+            <NavTile section = "sports" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
+            <NavTile section = "spectrum" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
+            <NavTile section = "the eye" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
+            <NavTile section = "news" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
         </TileWrap>
         <NextButton link = 'example-base-page.js'> </NextButton>
     </Wrapper1>
