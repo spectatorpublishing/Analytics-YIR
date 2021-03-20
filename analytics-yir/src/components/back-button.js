@@ -12,7 +12,7 @@ const Button = styled.button`
     `;
 
 const TextWrapper = styled.div`
-    font: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 650;
     color: black;
