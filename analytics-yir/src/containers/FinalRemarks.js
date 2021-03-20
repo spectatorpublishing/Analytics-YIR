@@ -41,7 +41,7 @@ const GraphicsWrap = styled.div`
 `
 
 const TitleWrap = styled.div`
-    width: 974px;
+    width: 1211px;
     height: 176px;
     margin-left: 71px;
     margin-top: 70px;
