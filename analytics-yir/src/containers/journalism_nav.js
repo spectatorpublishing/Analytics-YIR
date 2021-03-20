@@ -10,10 +10,11 @@ import BackButton from '../components/back-button';
 
 import opinionImg from '../images/opinion.png';
 
+import { journalism_nav_tiles } from '../data/journalism_nav_tiles'
+//import NavTile from '../components/nav-tile';
+
 const Wrapper1 = styled.div`
-    background-blend-mode: multiply;
-    background-size: cover;
-    background-position: center;
+    background: white;
     height: 150vh;
 
     @media ${device.tablet} {
@@ -21,7 +22,6 @@ const Wrapper1 = styled.div`
     }
 
     @media ${device.laptopS} {
-        background: #251282;
         height: fit-content;
     }
 `;
@@ -32,19 +32,18 @@ const TileWrap = styled.div`
     justify-content: space-evenly;
 `;
 
+//const tileWidth = ${device.size.mobile};
 //NavTile = ( {section, link, img, width, height} )
+//img = {require('../images' + tile.img)}
 
 const JournalismNav = () => (
     <>
     <Wrapper1>
         <BackButton link = 'example-base-page.js'> </BackButton>
         <TileWrap>
-            <NavTile section = "opinion" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
-            <NavTile section = "a&e" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
-            <NavTile section = "sports" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
-            <NavTile section = "spectrum" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
-            <NavTile section = "the eye" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
-            <NavTile section = "news" link = "google.com" img = {opinionImg} width = "750px" height = "750px"></NavTile>
+            {journalism_nav_tiles.map(tile => (
+                <NavTile section = {tile.section} link = {tile.link} img = {require(`../images/${tile.img}`)} width = "400px" height = "250px"></NavTile>
+            ))}
         </TileWrap>
         <NextButton link = 'example-base-page.js'> </NextButton>
     </Wrapper1>
