@@ -24,16 +24,21 @@ const Wrapper1 = styled.div`
 `;
 
 const TileWrap = styled.div`
+margin-left: 4rem;
+    
+    width: 1800px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 `;
 
 const RightSideNext = styled.div`
+    margin-top: 2rem;
+    margin-right: 3.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin: 1rem;
+    
 `;
 
 const LeftSideBack = styled.div`
@@ -52,7 +57,7 @@ const BAndINav = () => (
         </LeftSideBack>
         <TileWrap>
             {bAndI_nav_tiles.map(tile => (
-                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "375px" height = "250px"></NavTile>
+                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "560px" height = "350px"></NavTile>
             ))}
         </TileWrap>
         <RightSideNext>

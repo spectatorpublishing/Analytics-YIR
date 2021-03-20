@@ -26,6 +26,8 @@ const Wrapper1 = styled.div`
 `;
 
 const TileWrap = styled.div`
+    margin-left: 5rem;
+    width: 1700px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -54,7 +56,7 @@ const JournalismNav = () => (
         </LeftSideBack>
         <TileWrap>
             {journalism_nav_tiles.map(tile => (
-                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "375px" height = "250px"></NavTile>
+                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "400px" height = "250px"></NavTile>
             ))}
         </TileWrap>
         <RightSideNext>
