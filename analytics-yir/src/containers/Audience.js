@@ -47,7 +47,7 @@ const TitleWrap = styled.div`
     margin-top: 70px;
 `
 const Title = styled.div`
-    font-family: Raleway;
+    font-family: Raleway, sans-serif; sans-serif;
     font-style: normal;
     font-weight: 650;
     font-size: 150px;
@@ -63,7 +63,7 @@ const SubtitleWrap = styled.div`
 `
 
 const Subtitle = styled.div`
-    font-family: Raleway;
+    font-family: Raleway, sans-serif; sans-serif;
     font-style: normal;
     font-weight: 650;
     font-size: 70px;
@@ -76,7 +76,7 @@ const ParagraphWrap = styled.div`
     margin-top:15px;
 `
 const Paragraphs = styled.div`
-    font-family: Raleway;
+    font-family: Raleway, sans-serif; sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -89,7 +89,7 @@ const Notes = styled.div`
     margin-left: 71px;
     margin-top:15px;
 
-    font-family: Raleway;
+    font-family: Raleway, sans-serif; sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
