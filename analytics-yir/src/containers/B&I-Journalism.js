@@ -23,6 +23,12 @@ const BIWrapper = styled.div`
     bottom: 0;
     box-sizing: border-box;
     border-radius: 3.125rem;
+
+    :hover{
+        width: 1300px;
+        height: 750px;
+        z-index:8;
+    }
 `
 const JournalismWrapper = styled.div`
     position: absolute;
@@ -35,13 +41,19 @@ const JournalismWrapper = styled.div`
     top: 0;
     box-sizing: border-box;
     border-radius: 3.125rem;
+
+    :hover{
+        width: 1300px;
+        height: 750px;
+    }
 `
 const BIPillButton = styled.div`
     position: absolute;
     width: 1143px;
     height: 60px;
-    left: 58px;
+    left: 110px;
     bottom: 7%;
+    z-index:10;
 
     background: #7E9076;
     border-radius: 50px;
@@ -50,8 +62,8 @@ const JournalismPillButton = styled.div`
     position: absolute;
     width: 832px;
     height: 60px;
-    left: 700px;
-    top: 33%;
+    left: 650px;
+    top: 4%;
     background: #6C719B;
     border-radius: 50px;
 `;
@@ -80,7 +92,7 @@ const JournalismText = styled.p`
 `;
 
 
-const BIJournalism = ({BackButtonLink, BILink, JournalismLink})=>{
+const BIJournalism = ()=>{
     return (
         <Wrapper>
             <ButtonWrapper>
