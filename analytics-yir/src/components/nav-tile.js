@@ -31,6 +31,7 @@ const PillShape = styled.div`
     text-align: center;
 `;
 const Sector = styled.p`
+    font-family: Raleway, sans-serif;
     margin: 0;
     font-size: 2.5rem;
     font-style: normal;

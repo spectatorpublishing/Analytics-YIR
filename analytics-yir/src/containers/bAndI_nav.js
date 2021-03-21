@@ -24,7 +24,8 @@ const Wrapper1 = styled.div`
 `;
 
 const TileWrap = styled.div`
-margin-left: 4rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
     
     width: 1800px;
     display: flex;
@@ -33,11 +34,9 @@ margin-left: 4rem;
 `;
 
 const RightSideNext = styled.div`
-    margin-top: 2rem;
-    margin-right: 3.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    position: fixed;
+    Bottom: 20px;
+    right: 75px;
     
 `;
 
@@ -45,7 +44,9 @@ const LeftSideBack = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    
 `;
 
 
@@ -57,7 +58,7 @@ const BAndINav = () => (
         </LeftSideBack>
         <TileWrap>
             {bAndI_nav_tiles.map(tile => (
-                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "560px" height = "350px"></NavTile>
+                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "560px" height = "330px"></NavTile>
             ))}
         </TileWrap>
         <RightSideNext>

@@ -8,8 +8,6 @@ import NavTile from '../components/nav-tile';
 import NextButton from '../components/next-button';
 import BackButton from '../components/back-button';
 
-import opinionImg from '../opinion.png';
-
 import { journalism_nav_tiles } from '../data/journalism_nav_tiles'
 
 const Wrapper1 = styled.div`
@@ -26,25 +24,29 @@ const Wrapper1 = styled.div`
 `;
 
 const TileWrap = styled.div`
-    margin-left: 5rem;
-    width: 1700px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    
+    width: 1800px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 `;
 
 const RightSideNext = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin: 1rem;
+    position: fixed;
+    Bottom: 20px;
+    right: 75px;
+    
 `;
 
 const LeftSideBack = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    
 `;
 
 
@@ -56,7 +58,7 @@ const JournalismNav = () => (
         </LeftSideBack>
         <TileWrap>
             {journalism_nav_tiles.map(tile => (
-                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "400px" height = "250px"></NavTile>
+                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "560px" height = "330px"></NavTile>
             ))}
         </TileWrap>
         <RightSideNext>
