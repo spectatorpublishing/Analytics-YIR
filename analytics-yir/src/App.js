@@ -25,7 +25,11 @@ function App() {
           <Route exact path='/Website' component={Website} />
           <Route exact path='/SocialMedia' component={SocialMedia} />
           <Route exact path='/SectionInsights' component={SectionInsights} />
-          
+          <Route exact path='/BIJournalism' component={BIJournalism} />
+          <Route exact path='/mainBI' component={mainBI} />
+          <Route exact path='/mainJournalism' component={mainJournalism} />
+          <Route exact path='/BAndINav' component={BAndINav} />
+          <Route exact path='/JournalismNav' component={JournalismNav} />
           <Route exact path='/FinalRemarks' component={FinalRemarks} />
 
         </Switch>

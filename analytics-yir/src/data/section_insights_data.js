@@ -21,7 +21,7 @@ export const data =
             "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6VOZQKM3DZEIXHAHG673EEUWXE.jpeg",
             "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6VOZQKM3DZEIXHAHG673EEUWXE.jpeg",
         ],
-        next_link: '/FinalRemarks',
+        next_link: '/BIJournalism',
         back_link: '/SocialMedia',
 
     }

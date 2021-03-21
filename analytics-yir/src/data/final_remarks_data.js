@@ -22,6 +22,6 @@ export const data =
             "https://cloudfront-us-east-1.images.arcpublishing.com/spectator/6VOZQKM3DZEIXHAHG673EEUWXE.jpeg",
         ],
         next_link: '/',
-        back_link: '/SectionInsights',
+        back_link: '/BIJournalism',
 
     }

@@ -54,7 +54,7 @@ const BAndINav = () => (
     <>
     <Wrapper1>
         <LeftSideBack>
-            <BackButton link = 'example-base-page.js'> </BackButton>
+            <BackButton link = '/BIJournalism'> </BackButton>
         </LeftSideBack>
         <TileWrap>
             {bAndI_nav_tiles.map(tile => (
@@ -62,7 +62,7 @@ const BAndINav = () => (
             ))}
         </TileWrap>
         <RightSideNext>
-            <NextButton link = 'example-base-page.js' > </NextButton>
+            <NextButton link = 'FinalRemarks' > </NextButton>
         </RightSideNext>
     </Wrapper1>
     </>

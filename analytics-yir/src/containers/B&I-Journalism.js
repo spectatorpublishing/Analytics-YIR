@@ -84,9 +84,9 @@ const BIJournalism = ({BackButtonLink, BILink, JournalismLink})=>{
     return (
         <Wrapper>
             <ButtonWrapper>
-                <BackButton link={BackButtonLink}/>
+                <BackButton link={'/SectionInsights'}/>
             </ButtonWrapper>
-            <Link to = {BILink}>
+            <Link to = {'/mainBI'}>
                 <BIWrapper/>
                 <BIPillButton>
                     <BIText>
@@ -94,7 +94,7 @@ const BIJournalism = ({BackButtonLink, BILink, JournalismLink})=>{
                     </BIText>
                 </BIPillButton>
             </Link>
-            <Link to = {JournalismLink}>
+            <Link to = {'/mainJournalism'}>
                 <JournalismWrapper/>
                 <JournalismPillButton>
                     <JournalismText>Journalism</JournalismText>

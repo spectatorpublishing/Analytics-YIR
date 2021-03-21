@@ -39,7 +39,7 @@ const BIText = styled.p`
 
 const mainBI = () => {
     return (
-    <Link to={'/B&INav'}>
+    <Link to={'/BAndINav'}>
         <Wrapper>
             <BIPill>
                     <BIText>
