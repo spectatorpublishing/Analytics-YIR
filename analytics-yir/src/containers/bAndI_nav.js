@@ -58,7 +58,7 @@ const BAndINav = () => (
         </LeftSideBack>
         <TileWrap>
             {bAndI_nav_tiles.map(tile => (
-                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "560px" height = "330px"></NavTile>
+                <NavTile section = {tile.section} link = {tile.link} img = {tile.img} width = "29vw" height = "35vh"></NavTile>
             ))}
         </TileWrap>
         <RightSideNext>
