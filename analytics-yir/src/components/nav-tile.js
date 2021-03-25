@@ -36,7 +36,7 @@ const Sector = styled.p`
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 800;
-    line-height: 47px;
+    line-height: 55px;
     letter-spacing: 0em;
 `;
 

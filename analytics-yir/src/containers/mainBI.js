@@ -33,7 +33,7 @@ const BIText = styled.p`
     font-size: 75px;
     position: absolute;
     left: 35px;
-    top: -180%;
+    top: -195%;
 `;
 
 
