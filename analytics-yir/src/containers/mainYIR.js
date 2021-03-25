@@ -45,21 +45,20 @@ const CreditsPill = styled.div`
     right:75px;
     bottom: 70px;
 
-    background: #7E9076;
+    background:  #71a583;
     border-radius: 50px;
 `;
 
 const CreditsText = styled.p`
     font-family: Raleway, sans-serif;
-    text-transform: uppercase;
     color: white;
     text-align: left;
     font-style: normal;
     font-weight: 650;
-    font-size: 17px;
+    font-size: 20px;
     position: absolute;
-    left: 23px;
-    top: -12%;
+    left: 30px;
+    top: -18%;
 `;
 
 const mainYIR = () => {

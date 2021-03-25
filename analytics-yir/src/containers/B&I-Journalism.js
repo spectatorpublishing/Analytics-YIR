@@ -63,7 +63,7 @@ const JournalismPillButton = styled.div`
     width: 832px;
     height: 60px;
     left: 650px;
-    top: 4%;
+    top: 13%;
     background: #6C719B;
     border-radius: 50px;
 `;
@@ -76,7 +76,7 @@ const BIText = styled.p`
     font-size: 80px;
     position: absolute;
     left: 35px;
-    top: -225%;
+    top: -233%;
 `;
 const JournalismText = styled.p`
     text-transform: uppercase;
@@ -87,7 +87,7 @@ const JournalismText = styled.p`
     font-size: 80px;
     position: absolute;
     left: 220px;
-    top: -215%;
+    top: -233%;
     
 `;
 

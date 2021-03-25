@@ -30,7 +30,7 @@ const JournalismText = styled.p`
     font-size: 80px;
     position: absolute;
     right: 80px;
-    top: -215%;
+    top: -230%;
     
 `;
 

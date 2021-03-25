@@ -12,7 +12,7 @@ import FinalRemarks from './containers/FinalRemarks';
 import BIJournalism from './containers/B&I-Journalism';
 import BAndINav from './containers/bAndI_nav'
 import JournalismNav from './containers/journalism_nav'
-
+import SectionBase from './containers/sectionbase'
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
           <Route exact path='/mainJournalism' component={mainJournalism} />
           <Route exact path='/BAndINav' component={BAndINav} />
           <Route exact path='/JournalismNav' component={JournalismNav} />
+          <Route exact path='/SectionBase' component = {SectionBase}/>
           <Route exact path='/FinalRemarks' component={FinalRemarks} />
 
         </Switch>
