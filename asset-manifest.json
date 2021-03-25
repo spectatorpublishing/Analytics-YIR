@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Analytics-YIR/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/Analytics-YIR/static/js/main.b9753b78.chunk.js",
-    "main.js.map": "/Analytics-YIR/static/js/main.b9753b78.chunk.js.map",
+    "main.js": "/Analytics-YIR/static/js/main.dd5c0719.chunk.js",
+    "main.js.map": "/Analytics-YIR/static/js/main.dd5c0719.chunk.js.map",
     "runtime-main.js": "/Analytics-YIR/static/js/runtime-main.e393696a.js",
     "runtime-main.js.map": "/Analytics-YIR/static/js/runtime-main.e393696a.js.map",
     "static/js/2.5486cbe3.chunk.js": "/Analytics-YIR/static/js/2.5486cbe3.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e393696a.js",
     "static/js/2.5486cbe3.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.b9753b78.chunk.js"
+    "static/js/main.dd5c0719.chunk.js"
   ]
 }
