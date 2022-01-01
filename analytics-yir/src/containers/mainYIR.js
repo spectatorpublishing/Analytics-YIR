@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 
 const Wrapper = styled.div`
-    background: url(https://s3-alpha-sig.figma.com/img/ed70/90d0/9d2b6e6cada5ad78cea431c3916ae69b?Expires=1616976000&Signature=MBELm9FcB01q8y9DWScKDeX~OdK-XEFSWplXtMnTjnX1FiY0F8tnahfjlusvAkmVVu26N0~-fQAFjOB-Q-JnhaVThsD-Un6pQ51mY6qxU873O~tTQZQWtMhtbu0ypdYFVmQYkduTTBdrz8duEsnuN5YEg0izW3tWHjqb48D~aNMas77HijoZobdarN4Y6Jf5m2~eqoT87-LpcTJSuu4aOnNLo-fdlMNTJh5kWo7Rx3XZOcpyZ9jRGHyC6kIuy~BkrVPA4sQyZz2FUlEoil7SkJ8EvTPKBUaT4-6~G7gffi04Khl9maEnB860O5m1R4pjU2H2HVe1AyUbpjuq7JK5eQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA) rgba(37, 18, 130, .45);
+    background: url(https://yir-analytics.s3.amazonaws.com/image+1.png) rgba(37, 18, 130, .45);
     background-size:cover;
     background-position:center;
     background-repeat: no-repeat;

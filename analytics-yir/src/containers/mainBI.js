@@ -4,13 +4,16 @@ import styled from 'styled-components';
 
 
 const Wrapper = styled.div`
-    background-image: url(https://s3-alpha-sig.figma.com/img/9d40/118c/18b2b820bda5150e29ce0e258ad5e502?Expires=1616976000&Signature=KAT2nAAG4Y0uwtJeNyziaTPqPjzSYvXFNyMraw-POyabFI8f1kV~iErZAJkkgqu9M6ZUjOsso~To4tfdUskYZgjPsvMQcwBUgQa-MkhQpRUlY8M5ywfhqb-n4xQOTcwbu6wtYaQB5sc8vlJrosqyF6phsnC9AkutviMdXqS~8~6JOlFmshY0TduKLZ~-SE1ESGzFFlxDYp5XDJ1J7e0kKVI2mv4aM35bktojhPuZuWxcRH3HQN6XbVMHICYje0AhO-jt0NUJAb8H~YvO668-s6L-RZhHuFFstZnQI2WGSxOJb8-aQBUJ1DlYtmR6Th3QwYIVRh35PVnKUpkzBtcngQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-image: url(https://yir-analytics.s3.amazonaws.com/image+2.png);
     background-size:cover;
     background-repeat: no-repeat;
     
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 120%;
+    height: 120%;
+    margin-top: -5rem;
+    margin-left: -2rem;
+
 `;
 const BIPill = styled.div`
     position: absolute;

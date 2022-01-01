@@ -21,7 +21,7 @@ const BackWrap = styled.div`
 `
 const NextWrap = styled.div`
     position: fixed;
-    Bottom: 20px;
+    bottom: 20px;
     right: 20px;
 
 `
@@ -46,6 +46,7 @@ const TitleWrap = styled.div`
     margin-left: 71px;
     margin-top: 70px;
 `
+
 const Title = styled.div`
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -55,8 +56,6 @@ const Title = styled.div`
 `
 
 const SubtitleWrap = styled.div`
-    width: 1211px;
-    height: 90px;
     margin-left: 71px;
     margin-top: 25px; 
 

@@ -54,27 +54,13 @@ const Title = styled.div`
     line-height: 176px;
 `
 
-const SubtitleWrap = styled.div`
-    width: 1211px;
-    height: 90px;
-    margin-left: 71px;
-    margin-top: 25px; 
-
-`
-
-const Subtitle = styled.div`
-    font-family: Raleway, sans-serif;
-    font-style: normal;
-    font-weight: 650;
-    font-size: 70px;
-    line-height: 82px;
-`
 
 const ParagraphWrap = styled.div`
     width: 1058px;
     margin-left: 71px;
     margin-top:15px;
 `
+
 const Paragraphs = styled.div`
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -109,10 +95,6 @@ const Introduction = () => (
         <Title>{data.title}</Title>
     </TitleWrap>
 
-    <SubtitleWrap>
-        <Subtitle>{data.subtitle}</Subtitle>
-    </SubtitleWrap>
-
     <ParagraphWrap>
         {data.paragraphs.map(paragraph => (
             <Paragraphs>{paragraph}</Paragraphs>
@@ -120,12 +102,6 @@ const Introduction = () => (
     </ParagraphWrap>
 
     <Notes>{data.notes}</Notes>
-
-    <GraphicsWrap>
-        {data.graphics_urls.map(url => (
-            <Graphics src = {url}></Graphics>
-        ))}
-    </GraphicsWrap>
     
     <NextWrap>
         <NextButton link = {data.next_link}></NextButton>

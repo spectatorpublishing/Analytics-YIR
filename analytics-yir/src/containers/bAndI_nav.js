@@ -35,7 +35,7 @@ const TileWrap = styled.div`
 
 const RightSideNext = styled.div`
     position: fixed;
-    Bottom: 20px;
+    bottom: 20px;
     right: 75px;
     
 `;
@@ -62,7 +62,7 @@ const BAndINav = () => (
             ))}
         </TileWrap>
         <RightSideNext>
-            <NextButton link = '/SectionBase' > </NextButton>
+            <NextButton link = '/FinalRemarks' > </NextButton>
         </RightSideNext>
     </Wrapper1>
     </>

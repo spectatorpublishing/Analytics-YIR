@@ -62,7 +62,7 @@ const JournalismNav = () => (
             ))}
         </TileWrap>
         <RightSideNext>
-            <NextButton link = '/SectionBase' > </NextButton>
+            <NextButton link = '/BAndINav' > </NextButton>
         </RightSideNext>
     </Wrapper1>
     </>

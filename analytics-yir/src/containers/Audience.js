@@ -119,8 +119,6 @@ const Audience = () => (
         ))}
     </ParagraphWrap>
 
-    <Notes>{data.notes}</Notes>
-
     <GraphicsWrap>
         {data.graphics_urls.map(url => (
             <Graphics src = {url}></Graphics>

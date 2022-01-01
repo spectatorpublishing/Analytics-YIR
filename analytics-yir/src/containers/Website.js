@@ -109,17 +109,11 @@ const Website = () => (
         <Title>{data.title}</Title>
     </TitleWrap>
 
-    <SubtitleWrap>
-        <Subtitle>{data.subtitle}</Subtitle>
-    </SubtitleWrap>
-
     <ParagraphWrap>
         {data.paragraphs.map(paragraph => (
             <Paragraphs>{paragraph}</Paragraphs>
         ))}
     </ParagraphWrap>
-
-    <Notes>{data.notes}</Notes>
 
     <GraphicsWrap>
         {data.graphics_urls.map(url => (
